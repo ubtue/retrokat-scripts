@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+personal_config.json
+
+#PyCharmFiles
+.idea/
+
+#temp files
+*_proper.xml
+*_post_process.xml
+statistics*.txt
+volume_files/*
