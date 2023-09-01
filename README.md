@@ -10,3 +10,11 @@ Für die Anwendung der Programme muss zusätzlich zum Download der Dateien ein B
 
 Alternativ kann die Datei `personal_config_dummy.json` als `personal_config.json` gespeichert und die dortigen Angaben ergänzt werden.
 
+## Workflow
+
+Für die Generierung der Daten kann das Skript `commands_for_benu.py` genutzt werden, das die dafür nötigen Befehle darstellt. In jedem Fall sind weitere Konfigurationen nötig.
+
+Für die Nachbearbeitung wird das Skript `post_process.py` benutzt. Falls weitere manuelle Nacharbeiten nötig sind, kann anschließend mithilfe von `merge_proper_and_post_process.py` eine finale Datei erzeugt werden.
+
+Der Upload erfolgt mithilfe von `Rename files for FTP & move.py` bzw. `Move files to productive system.py`
+

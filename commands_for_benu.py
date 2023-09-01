@@ -29,12 +29,12 @@ if __name__ == '__main__':
         + zeder_id + ' \"NAME,ONLINE_PPN,ONLINE_ISSN,PRINT_PPN,PRINT_ISSN,UPLOAD_OPERATION,' \
         'LICENSE,PERSONALIZED_AUTHORS,EXPECTED_LANGUAGES,ENTRY_POINT_URL,UPDATE_WINDOW,SELECTIVE_EVALUATION,' \
         'SSGN,ADDITIONAL_SELECTORS\"'\
-        '\n\nNun muss die Datei /tmp/zotero_test_{0}.conf angepasst werden (siehe Anleitungen).\n' \
+        '\n\nNun muss die Datei /tmp/zotero_harvester_{0}.conf angepasst werden (siehe Anleitungen).\n' \
         'Dabei Änderung des Titels zu ZEDER-ID\n' \
         'vim /tmp/zotero_harvester_{0}.conf\n'\
         '\nHarvesten der Daten:'\
         '\n/usr/local/bin/zotero_harvester \"--min-log-level=DEBUG\" \"--force-downloads\" '\
-        '\"--output-directory=/tmp/XML_' + zeder_id + '\" \"--output-filename=3635.xml\" '\
+        '\"--output-directory=/tmp/XML_' + zeder_id + '\" \"--output-filename=' + zeder_id + '.xml\" '\
         '\"/tmp/zotero_harvester_{0}.conf\" \"JOURNAL\" \"' + zeder_id + '\"'\
         '\nexit\n' + change_to_shared_folder +\
         '\nscp {0}@benu.ub.uni-tuebingen.de:/tmp/XML_' + zeder_id + '/ixtheo/' + zeder_id +\
