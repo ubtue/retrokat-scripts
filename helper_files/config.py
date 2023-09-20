@@ -26,5 +26,6 @@ with open(structure_json_filename) as structure_json:
     PRODUCTIVE_FILES_RENAMED_JSON = SHARED_FOLDER + structure["productive_db_files_renamed_json"]
     UPLOAD_TEST = SHARED_FOLDER + structure["folder_for_test_db"]
     TEST_FILES_RENAMED_JSON = SHARED_FOLDER + structure["test_db_files_renamed_json"]
+    UPLOAD_ADDITIONAL = SHARED_FOLDER + structure["folder_for_additional"]
     PROPER_FILES = SHARED_FOLDER + structure["folder_for_proper_files"]
 
