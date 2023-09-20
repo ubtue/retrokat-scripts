@@ -9,5 +9,6 @@ personal_config.json
 #temp files
 *_proper.xml
 *_post_process.xml
+*_ppns_linked.json
 statistics*.txt
 volume_files/*
